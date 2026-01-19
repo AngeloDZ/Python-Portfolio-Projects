@@ -26,7 +26,9 @@ For the first part of the visualisation, I would first have to create a function
 
 We can use the fact that for regular polygons, the angle at the centre between two adjacent corners will be equal to $360°/n$. So, given one coordinate of the polygon, we can calculate the coordinates of the rest of the corners using trigonometry.
 
-We will take one corner and place it at (1,0), then using rotational 
+We will take one corner and place it at (1,0), then apply the rotation matrix iteratively.
+
+The code below repeats the (1,0) coordinate, as it will be useful for later.
 
 ```python 
 def Generate_Polygon(n):
