@@ -52,8 +52,6 @@ def Generate_Polygon(n):
 
     return points
 
-#30/05/2025 18:02 Added to github
-
 def Flatlands_View(n, theta):
     """
     Generates and plots a front facing view of a n-sided polygon.
@@ -118,4 +116,5 @@ def Flatlands_View(n, theta):
     plt.show()
     
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
+
         
