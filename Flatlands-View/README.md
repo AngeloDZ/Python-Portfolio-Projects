@@ -94,7 +94,7 @@ def Generate_Polygon_Graph(n,theta):
 
 ## Flatlands View
 
-```python 
+```python
 def Flatlands_View(n, theta):
     """
     Generates and plots a front facing view of a n-sided polygon.
@@ -142,7 +142,7 @@ def Flatlands_View(n, theta):
         x_visible.append(x_max)
         y_visible.append(y)
     
-    #Fill empty areas with 
+    #Fill empty areas with np.nan
     full_scan = defaultdict(lambda: np.nan)
     for x,y in zip(x_visible, y_visible):
         y_key = round(y,3)
