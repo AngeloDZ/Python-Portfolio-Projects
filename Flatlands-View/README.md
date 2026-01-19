@@ -45,8 +45,7 @@ def Generate_Polygon(n):
 
     return points
 ```
-      
-(Code)
+
 (Example 1)
 (Example 2)
 
