@@ -20,6 +20,6 @@ The plan was to then visualise what the $x = 1$ line 'saw' by seeing how far the
 
 ## Generate Polygon
 
-For the first part of the visualisation, I would first have to create a function which constructs a regular n-sided polygon.
+For the first part of the visualisation, I would first have to create a function which constructs a regular n-sided polygon. First, we will have to find out the coordinates of the corners of the polygon.
 
-We can use the fact that for regular polygons, the angle ath the centre between two adjacent corners will be equal to $360°/n$, thus, given one coordinate of the polygon, we can calculate the coordinates of the rest of the corners using trigonometry.
+We can use the fact that for regular polygons, the angle at the centre between two adjacent corners will be equal to $360°/n$. So, given one coordinate of the polygon, we can calculate the coordinates of the rest of the corners using trigonometry.
