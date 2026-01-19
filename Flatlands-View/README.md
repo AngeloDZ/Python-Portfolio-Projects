@@ -28,6 +28,22 @@ We can use the fact that for regular polygons, the angle at the centre between t
 
 We will take one corner and place it at (1,0), then using rotational 
 
+```python 
+def Generate_Polygon(n):
+    """
+    Generates and plots points of a n-sided polygon.
+    n should be a positive integer.
+    """
+    #Create an array for the x and y coordinates of each point
+    points = np.zeros((n+1,2))
+    
+    #Create the points for the polygon and add them to the array
+    for i in range(n+1):
+        points[i] = [np.cos(i*2*np.pi/n),np.sin(i*2*np.pi/n)]
+
+    return points
+```
+      
 (Code)
 (Example 1)
 (Example 2)
