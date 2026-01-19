@@ -117,4 +117,4 @@ def Flatlands_View(n, theta):
     
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
 
-        
+#Add more comments
