@@ -99,7 +99,7 @@ def Flatlands_View(n, theta):
         x_visible.append(x_max)
         y_visible.append(y)
     
-    #Fill empty areas with 
+    #Fill empty areas with np.nan
     full_scan = defaultdict(lambda: np.nan)
     for x,y in zip(x_visible, y_visible):
         y_key = round(y,3)
@@ -118,3 +118,4 @@ def Flatlands_View(n, theta):
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
 
 #Add more comments
+
