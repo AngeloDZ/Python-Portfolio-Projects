@@ -18,17 +18,23 @@ The idea I came up with was for our regular polygon to have a center at (0,0), w
 
 The plan was to then visualise what the $x = 1$ line 'saw' by caclulate how far the shape was from the $x = 1$ line for every y value. In this case $y ∈ [-1,1]$. Then, we can calculate the distance from each coordinate on the visible side of the polygon, and translate it into some sort of heatmap that acts almost like contour lines, giving the perception of depth.
 
+(Example diagram)
+
 ## Generate Polygon
 
 For the first part of the visualisation, I would first have to create a function which constructs a regular n-sided polygon. First, we will have to find out the coordinates of the corners of the polygon.
 
 We can use the fact that for regular polygons, the angle at the centre between two adjacent corners will be equal to $360°/n$. So, given one coordinate of the polygon, we can calculate the coordinates of the rest of the corners using trigonometry.
 
+We will take one corner and place it at (1,0), then using rotational 
+
 (Code)
 (Example 1)
 (Example 2)
 
 ## Generate Polygon Graph
+
+This function essentially does the same thing as Generate Polygon, generates a graph of the polygon on the 2-D plane.
 
 (Code)
 (Example 1)
