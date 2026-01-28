@@ -10,7 +10,7 @@ As they are two dimensional, the flatlanders are only able to visually see one a
 
 This book inspired me to create a function in python that would create a visualisation to replicate how an inhabitant of Flatland would view other flatlanders. 
 
-## Contents
+## 
 
 ## Idea
 
@@ -93,6 +93,10 @@ def Generate_Polygon_Graph(n,theta):
 (Example 2)
 
 ## Flatlands View
+
+In this model, “depth” is represented by the horizontal distance between the observer line (x = 1) and the visible boundary of the polygon at each vertical scanline. This scalar distance is then visualised using a heatmap.
+
+This works by intersecting horizontal scanlines with each polygon edge, then selecting the intersection point with the largest x-value, corresponding to the visible surface from the observer’s perspective.
 
 ```python
 def Flatlands_View(n, theta):
