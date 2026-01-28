@@ -10,8 +10,6 @@ As they are two dimensional, the flatlanders are only able to visually see one a
 
 This book inspired me to create a function in python that would create a visualisation to replicate how an inhabitant of Flatland would view other flatlanders. 
 
-## 
-
 ## Idea
 
 The idea I came up with was for our regular polygon to have a center at (0,0), whilst having a circumcircle with radius 1 unit. Then the $x = 1$ line could act as the 'observer'.
