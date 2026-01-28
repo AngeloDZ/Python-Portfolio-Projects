@@ -94,7 +94,7 @@ def Generate_Polygon_Graph(n,theta):
 
 ## Flatlands View
 
-In this model, “depth” is represented by the horizontal distance between the observer line (x = 1) and the visible boundary of the polygon at each vertical scanline. This scalar distance is then visualised using a heatmap.
+In this first model, “depth” is represented by the horizontal distance between the observer (the $x = 1$ line) and the visible boundary of the polygon at each vertical scanline. This scalar distance is then visualised using a heatmap.
 
 This works by intersecting horizontal scanlines with each polygon edge, then selecting the intersection point with the largest x-value, corresponding to the visible surface from the observer’s perspective.
 
