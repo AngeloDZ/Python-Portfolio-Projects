@@ -14,7 +14,7 @@ This book inspired me to create a function in python that would create a visuali
 
 The idea I came up with was for our regular polygon to have a center at (0,0), whilst having a circumcircle with radius 1 unit. Then the $x = 1$ line could act as the 'observer'.
 
-The plan was to then visualise what the $x = 1$ line 'saw' by caclulate how far the shape was from the $x = 1$ line for every y value. In this case $y ∈ [-1,1]$. Then, we can calculate the distance from each coordinate on the visible side of the polygon, and translate it into some sort of heatmap that acts almost like contour lines, giving the perception of depth.
+The plan was to then visualise what the $x = 1$ line 'saw' by calculate how far the shape was from the $x = 1$ line for every y value. In this case $y ∈ [-1,1]$. Then, we can calculate the distance from each coordinate on the visible side of the polygon, and translate it into some sort of heatmap that acts almost like contour lines, giving the perception of depth.
 
 (Example diagram)
 
