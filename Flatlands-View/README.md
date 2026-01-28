@@ -163,3 +163,10 @@ def Flatlands_View(n, theta):
 
 (Example 1)
 (Example 2)
+
+## Extensions
+
+The next steps are to include:
+
+- Point perspective - Treating the observer, at least the view of the observer, as a point to provide a field of view like how 3D games work, rather than producing just a contour line of sorts.
+- GIF/360 degree video of the polygon rotating.
