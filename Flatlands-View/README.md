@@ -197,8 +197,17 @@ def Flatlands_View(n, theta):
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
 ```
 
-(Example 1)
-(Example 2)
+For `Flatlands_View(3,0)`, we obtain:
+
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/bd6b87aa-23fa-481f-ba7c-9075ac899e0a" />
+
+For `Flatlands_View(4,0)`:
+
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/63888075-1e1c-48e2-96c8-ff75a1cc3981" />
+
+And for `Flatlands_View(5,0)`:
+
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/46ce7e8b-125c-4c3e-8b23-2aa4d551323c" />
 
 ## Extensions
 
