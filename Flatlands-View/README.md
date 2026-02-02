@@ -12,7 +12,7 @@ This book inspired me to create a function in python that would create a visuali
 
 ## Idea
 
-The idea I came up with was for our regular polygon to have a center at (0,0), whilst having a circumcircle with radius 1 unit. Then the $x = 1$ line could act as the 'observer'.
+The idea I came up with was for our regular polygon to have a center at the origin, whilst having a circumcircle with radius 1 unit. Then the $x = 1$ line could act as the 'observer'.
 
 The plan was to then visualise what the $x = 1$ line 'saw' by calculate how far the shape was from the $x = 1$ line for every y value. In this case $y ∈ [-1,1]$. Then, we can calculate the distance from each coordinate on the visible side of the polygon, and translate it into some sort of heatmap that acts almost like contour lines, giving the perception of depth.
 
@@ -32,8 +32,6 @@ from collections import defaultdict
 For the first part of the visualisation, I would first have to create a function which constructs a regular n-sided polygon. First, we will have to find out the coordinates of the corners of the polygon.
 
 We can use the fact that for regular polygons, the angle at the centre between two adjacent corners will be equal to $360°/n$. So, given one coordinate of the polygon, we can calculate the coordinates of the rest of the corners using trigonometry.
-
-We will take one corner and place it at (1,0), then apply the rotation matrix iteratively.
 
 The code below repeats the (1,0) coordinate, as it will be useful for later.
 
@@ -88,7 +86,7 @@ array([[ 1.00000000e+00,  0.00000000e+00],
 This function essentially does the same thing as Generate Polygon, but generates a graph of the polygon on the 2-D plane.
 
 ```python 
-def Generate_Polygon_Graph(n,theta):
+def Generate_Polygon_Graph(n,theta=0):
     """
     Generates and plots points of a n-sided polygon.
     n should be a positive integer.
@@ -146,7 +144,7 @@ And for `Generate_Polygon_Graph(5,0)`:
 In this first model, “depth” is represented by the horizontal distance between the observer, which we will take to be the $x = 1$ line, and the visible boundary of the polygon at each vertical scanline. This distance is then visualised using a heatmap.
 
 ```python
-def Flatlands_View(n, theta):
+def Flatlands_View(n,theta=0):
     """
     Generates and plots a front facing view of a n-sided polygon.
     
@@ -212,25 +210,36 @@ def Flatlands_View(n, theta):
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
 ```
 
-For `Flatlands_View(3,0)`, we obtain:
+For `Flatlands_View(3)`, we obtain:
 
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/bd6b87aa-23fa-481f-ba7c-9075ac899e0a" />
 </p>
 
-For `Flatlands_View(4,0)`:
+For `Flatlands_View(4)`:
 
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/63888075-1e1c-48e2-96c8-ff75a1cc3981" />
 </p>
 
-And for `Flatlands_View(5,0)`:
+And for `Flatlands_View(5)`:
 
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/46ce7e8b-125c-4c3e-8b23-2aa4d551323c" />
 </p>
 
-## Extensions
+## Rotation addition
+
+You may ahve noticed that `Generate_Polygon_Graph` and `Flatlands_View` both take in an optional additional paremter `theta`. This parameter allows for rotational translation of the shape about the origin.
+
+The rotation matrix in a 2-D plane is given as
+
+| 1 | 2 | 3 |
+|---|---|---|
+| 4 | 5 | 6 |
+
+
+## Future Extensions
 
 The next steps are to include:
 
