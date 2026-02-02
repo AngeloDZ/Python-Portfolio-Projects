@@ -230,13 +230,24 @@ And for `Flatlands_View(5)`:
 
 ## Rotation addition
 
-You may ahve noticed that `Generate_Polygon_Graph` and `Flatlands_View` both take in an optional additional paremter `theta`. This parameter allows for rotational translation of the shape about the origin.
+You may have noticed that `Generate_Polygon_Graph` and `Flatlands_View` both take in an optional additional paremter `theta`. This parameter allows for rotational translation of the shape about the origin.
 
 The rotation matrix in a 2-D plane is given as 
 
 <img width="20%" alt="Image" src="https://github.com/user-attachments/assets/bf0b2c20-de22-47cb-a9f9-0d02dfeb6457" />
 
-which we can assign as a variable within our functions like such:
+The following code allows us to rotate the shape between 0 and 360 degrees around the origin anti-clockwise. This works by taking theta, plugging it into the rotation matrix, and then applying the translation to each polygon point.
+
+```python
+p = Generate_Polygon(n)
+    
+theta = theta*np.pi/180
+    
+transformation = np.array([[np.cos(theta), -np.sin(theta)],
+                            [np.sin(theta), np.cos(theta)]])
+    
+p = np.dot(p,transformation)
+```
 
 ## Future Extensions
 
