@@ -114,8 +114,17 @@ def Generate_Polygon_Graph(n,theta):
     return points
 ```
 
-(Example 1)
-(Example 2)
+For `Generate_Polygon_Graph(3,0)`, we obtain:
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/1fa0325e-4c8a-416b-9fed-03d8f2b350f4" />
+
+For `Generate_Polygon_Graph(4,0)`:
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/f8b806e0-5aee-4959-97ed-b89488a6eb86" />
+
+And for `Generate_Polygon_Graph(5,0)`:
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/3e8130af-f55b-4f3f-83a7-24eec570dc4f" />
 
 ## Flatlands View
 
