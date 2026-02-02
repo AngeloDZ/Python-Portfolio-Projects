@@ -76,7 +76,7 @@ array([[ 1.00000000e+00,  0.00000000e+00],
 
 ## Generate Polygon Graph
 
-This function essentially does the same thing as Generate Polygon, generates a graph of the polygon on the 2-D plane.
+This function essentially does the same thing as Generate Polygon, but generates a graph of the polygon on the 2-D plane.
 
 ```python 
 def Generate_Polygon_Graph(n,theta):
