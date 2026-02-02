@@ -232,12 +232,11 @@ And for `Flatlands_View(5)`:
 
 You may ahve noticed that `Generate_Polygon_Graph` and `Flatlands_View` both take in an optional additional paremter `theta`. This parameter allows for rotational translation of the shape about the origin.
 
-The rotation matrix in a 2-D plane is given as
+The rotation matrix in a 2-D plane is given as 
 
-| 1 | 2 | 3 |
-|---|---|---|
-| 4 | 5 | 6 |
+<img width="20%" alt="Image" src="https://github.com/user-attachments/assets/bf0b2c20-de22-47cb-a9f9-0d02dfeb6457" />
 
+which we can assign as a variable within our functions like such:
 
 ## Future Extensions
 
