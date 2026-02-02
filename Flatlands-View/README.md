@@ -115,16 +115,17 @@ def Generate_Polygon_Graph(n,theta):
 ```
 
 For `Generate_Polygon_Graph(3,0)`, we obtain:
-
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/1fa0325e-4c8a-416b-9fed-03d8f2b350f4" />
-
+</p>
 For `Generate_Polygon_Graph(4,0)`:
-
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/f8b806e0-5aee-4959-97ed-b89488a6eb86" />
-
+</p>
 And for `Generate_Polygon_Graph(5,0)`:
-
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/3e8130af-f55b-4f3f-83a7-24eec570dc4f" />
+</p>
 
 ## Flatlands View
 
@@ -198,16 +199,17 @@ def Flatlands_View(n, theta):
 ```
 
 For `Flatlands_View(3,0)`, we obtain:
-
+<p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/bd6b87aa-23fa-481f-ba7c-9075ac899e0a" />
-
+</p>
 For `Flatlands_View(4,0)`:
-
+<p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/63888075-1e1c-48e2-96c8-ff75a1cc3981" />
-
+</p>
 And for `Flatlands_View(5,0)`:
-
+<p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/46ce7e8b-125c-4c3e-8b23-2aa4d551323c" />
+</p>
 
 ## Extensions
 
