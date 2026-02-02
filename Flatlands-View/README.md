@@ -213,14 +213,19 @@ def Flatlands_View(n, theta):
 ```
 
 For `Flatlands_View(3,0)`, we obtain:
+
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/bd6b87aa-23fa-481f-ba7c-9075ac899e0a" />
 </p>
+
 For `Flatlands_View(4,0)`:
+
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/63888075-1e1c-48e2-96c8-ff75a1cc3981" />
 </p>
+
 And for `Flatlands_View(5,0)`:
+
 <p align="center">
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/46ce7e8b-125c-4c3e-8b23-2aa4d551323c" />
 </p>
