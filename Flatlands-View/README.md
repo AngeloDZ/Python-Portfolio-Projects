@@ -16,8 +16,17 @@ The idea I came up with was for our regular polygon to have a center at (0,0), w
 
 The plan was to then visualise what the $x = 1$ line 'saw' by calculate how far the shape was from the $x = 1$ line for every y value. In this case $y ∈ [-1,1]$. Then, we can calculate the distance from each coordinate on the visible side of the polygon, and translate it into some sort of heatmap that acts almost like contour lines, giving the perception of depth.
 
-(Example diagram)
+## Prerequisites
 
+For these functions, naturally we will require the Numpy and Matplotlib packages in python. Numpy for arrays and numerical calculations, and Matplotlib for visualisation tools.
+
+We will also import defaultdict from collections, which will help to reduce the number of calculations and iterations needed.
+
+```python 
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import defaultdict
+```
 ## Generate Polygon
 
 For the first part of the visualisation, I would first have to create a function which constructs a regular n-sided polygon. First, we will have to find out the coordinates of the corners of the polygon.
