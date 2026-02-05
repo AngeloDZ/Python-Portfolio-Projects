@@ -257,19 +257,35 @@ p = np.dot(p,transformation)
 
 ### Examples
 
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/dce4aacd-c547-46ac-8c44-bff97ecb4a06" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/cb465398-1402-406a-a9c7-e572feb91f5a" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c1634e86-279f-4720-8493-98a68cb41d6a" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c097dda9-97a2-4af3-9cd9-f0608896ba27" />
+#### Triangle
+`Generate_Polygon_Graph(3,0)` and `Flatlands_View(3,0)`
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/16700cf7-2fae-4308-9b6f-06455d67c200" />
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/13f95ccf-489a-4710-a88a-4cd372e67580" />
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4f6f3bc1-7531-4838-9a48-04676f5001e5" />
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/aed68a49-766f-40a2-8857-42119f70b43e" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/dce4aacd-c547-46ac-8c44-bff97ecb4a06" />
+</p>
 
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/99cd8387-4225-475b-ac74-7ec3208acfea" />
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/8bcd511d-ceed-45bb-b561-81a527c440eb" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/64f5fc78-2c1e-4ffa-b31e-df7690341605" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c4de6245-9a74-4cfb-84fa-b6de636ece36" />
+`Generate_Polygon_Graph(3,90)` and `Flatlands_View(3,90)`
+<p align="center">
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/13f95ccf-489a-4710-a88a-4cd372e67580" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/cb465398-1402-406a-a9c7-e572feb91f5a" />
+</p>
+
+`Generate_Polygon_Graph(3,180)` and `Flatlands_View(3,180)`
+<p align="center">
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4f6f3bc1-7531-4838-9a48-04676f5001e5" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c1634e86-279f-4720-8493-98a68cb41d6a" />
+</p>
+
+`Generate_Polygon_Graph(3,270)` and `Flatlands_View(3,270)`
+<p align="center">
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/aed68a49-766f-40a2-8857-42119f70b43e" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c097dda9-97a2-4af3-9cd9-f0608896ba27" />
+</p>
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/79bc0047-5f5c-477d-b084-4a2ba9b531c7" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/09706dfb-11c3-4b1e-8007-334354d55567" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/dd99d2c8-a391-4e40-a1f6-45a784cad322" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/88e07479-cecf-4381-b958-fe8c0ea476f7" />
 
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4d7877f6-b21a-428b-a0c1-ddfb717e1f89" />
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/ad7546ed-4c5a-48cc-a039-668772205002" />
