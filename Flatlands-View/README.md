@@ -51,6 +51,8 @@ def Generate_Polygon(n):
     return points
 ```
 
+### Examples
+
 For `Generate_Polygon(3)`, we obtain:
 
 ```python
@@ -120,6 +122,8 @@ def Generate_Polygon_Graph(n,theta=0):
     
     return points
 ```
+
+### Examples
 
 For `Generate_Polygon_Graph(3,0)`, we obtain:
 
@@ -210,6 +214,8 @@ def Flatlands_View(n,theta=0):
     return min(y_visible), max(y_visible), len(x_visible), len(y_visible), x_scan
 ```
 
+### Examples
+
 For `Flatlands_View(3)`, we obtain:
 
 <p align="center">
@@ -248,6 +254,8 @@ transformation = np.array([[np.cos(theta), -np.sin(theta)],
     
 p = np.dot(p,transformation)
 ```
+
+### Examples
 
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/dce4aacd-c547-46ac-8c44-bff97ecb4a06" />
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/cb465398-1402-406a-a9c7-e572feb91f5a" />
