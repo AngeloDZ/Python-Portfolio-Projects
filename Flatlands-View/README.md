@@ -249,6 +249,25 @@ transformation = np.array([[np.cos(theta), -np.sin(theta)],
 p = np.dot(p,transformation)
 ```
 
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/dce4aacd-c547-46ac-8c44-bff97ecb4a06" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/cb465398-1402-406a-a9c7-e572feb91f5a" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c1634e86-279f-4720-8493-98a68cb41d6a" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c097dda9-97a2-4af3-9cd9-f0608896ba27" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/16700cf7-2fae-4308-9b6f-06455d67c200" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/13f95ccf-489a-4710-a88a-4cd372e67580" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4f6f3bc1-7531-4838-9a48-04676f5001e5" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/aed68a49-766f-40a2-8857-42119f70b43e" />
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/99cd8387-4225-475b-ac74-7ec3208acfea" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/8bcd511d-ceed-45bb-b561-81a527c440eb" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/64f5fc78-2c1e-4ffa-b31e-df7690341605" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c4de6245-9a74-4cfb-84fa-b6de636ece36" />
+
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4d7877f6-b21a-428b-a0c1-ddfb717e1f89" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/ad7546ed-4c5a-48cc-a039-668772205002" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/7469650d-2ab3-4681-85ea-acdef3e6bbbe" />
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/9a16c1b2-69a8-4d74-87d3-5a5f8030728f" />
+
 ## Future Extensions
 
 The next steps are to include:
