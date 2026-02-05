@@ -258,6 +258,7 @@ p = np.dot(p,transformation)
 ### Examples
 
 #### Triangle
+
 `Generate_Polygon_Graph(3,0)` and `Flatlands_View(3,0)`
 <p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/16700cf7-2fae-4308-9b6f-06455d67c200" />
@@ -282,15 +283,33 @@ p = np.dot(p,transformation)
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/c097dda9-97a2-4af3-9cd9-f0608896ba27" />
 </p>
 
+#### Square
+
+`Generate_Polygon_Graph(4,0)` and `Flatlands_View(4,0)`
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/79bc0047-5f5c-477d-b084-4a2ba9b531c7" />
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/09706dfb-11c3-4b1e-8007-334354d55567" />
+</p>
+
+`Generate_Polygon_Graph(4,45)` and `Flatlands_View(4,45)`
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/dd99d2c8-a391-4e40-a1f6-45a784cad322" />
 <img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/88e07479-cecf-4381-b958-fe8c0ea476f7" />
+</p>
 
-<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4d7877f6-b21a-428b-a0c1-ddfb717e1f89" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/ad7546ed-4c5a-48cc-a039-668772205002" />
-<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/7469650d-2ab3-4681-85ea-acdef3e6bbbe" />
+#### Hexagon
+
+`Generate_Polygon_Graph(6,0)` and `Flatlands_View(6,0)`
+<p align="center">
 <img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/9a16c1b2-69a8-4d74-87d3-5a5f8030728f" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/ad7546ed-4c5a-48cc-a039-668772205002" />
+</p>
+
+`Generate_Polygon_Graph(6,30)` and `Flatlands_View(6,30)`
+<p align="center">
+<img width="275" height="256" alt="Image" src="https://github.com/user-attachments/assets/4d7877f6-b21a-428b-a0c1-ddfb717e1f89" />
+<img width="363" height="246" alt="Image" src="https://github.com/user-attachments/assets/7469650d-2ab3-4681-85ea-acdef3e6bbbe" />
+</p>
 
 ## Future Extensions
 
